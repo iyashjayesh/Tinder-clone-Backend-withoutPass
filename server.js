@@ -20,7 +20,7 @@ mongoose.connect(connection_url, {
 });
 
 // API Endpoints
-app.get('/', (req, res) => res.status(200).send('Hello Users!!'));
+app.get('/', (req, res) => res.status(200).send('Hello Users, I am the backend of Tinder Clone Web App!! Project Made by Yash Chauhan | @iyashjayesh'));
 
 app.post('/tinder/cards', (req, res) => {
     const dbCard =req.body;
